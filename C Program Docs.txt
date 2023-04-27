@@ -110,6 +110,8 @@ else{
 
 }
 
+
+Module - 3
 Loop - 
 1) for loop -
  int i;
@@ -149,3 +151,24 @@ do{
 increment/decrement
 }
 while(condition);
+
+Module - 4
+
+shob char value er piche ekta integer value thake C program e. like kono char jodi "A" hoi shetar ekta integer value 65 ase. etake ASCII bole.
+uppercase A er code 65, lowercase a er code 97. difference hocche 32.
+
+
+Module - 5 
+
+**i++/ i-- = Post increment/decrement ==> x= i++ or x= i-- likhle i er value jodi 10 hoy she x er value 10 kore then post increment/decrement er karone i er value 1 kore barabe ba komabe. so x hobe 10 but i hobe 11 or 9
+
+** ++i/--i = Pre increment/decrement ==>  x= ++ ior x= --i likhle i er value jodi 10 hoy she x er value 10 er shathe 1 increment/decrement kore then pre increment/decrement er karone i er value 1 kore barabe ba komabe. so ekhetre x hobe 11 or 9 i er value o hobe 11 or 9.
+
+** Jokhon multiple input newa lagbe but koi bar newa lagbe bola thakbe na tokhon EOF or End of file use kora lagbe. Etake while loop e use kora lage.
+
+while(scanf("%d", &a)!=EOF){
+
+}
+
+** max = INT_MAX ==> shobtheke maximum value;
+min = INT_MIN ==> shobtheke minimum value;
